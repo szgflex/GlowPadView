@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">Keyguard</string>
+    <string name="keyguard_accessibility_slide_area">"滑动区域。"</string>
+    <string name="description_direction_up">"向上滑动以<xliff:g id="TARGET_DESCRIPTION">%s</xliff:g>。"</string>
+    <string name="description_direction_down">"向下滑动以<xliff:g id="TARGET_DESCRIPTION">%s</xliff:g>。"</string>
+    <string name="description_direction_left">"向左滑动以<xliff:g id="TARGET_DESCRIPTION">%s</xliff:g>。"</string>
+    <string name="description_direction_right">"向右滑动以<xliff:g id="TARGET_DESCRIPTION">%s</xliff:g>。"</string>
+    
+    <string name="description_target_unlock">"解锁"</string>
+    <string name="description_target_phone">"电话"</string>
+    <string name="description_target_camera">"相机"</string>
+    <string name="description_target_sms">"短信"</string>
+    <string name="description_target_browser">"浏览器"</string>
+
+</resources>

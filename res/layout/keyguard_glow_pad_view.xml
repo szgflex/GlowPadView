@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.keyguard.widget.GlowPadView
+    xmlns:glowpad="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+   	android:id="@+id/glow_pad_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="horizontal"
+    android:gravity="@integer/kg_selector_gravity"
+    android:contentDescription="@string/keyguard_accessibility_slide_area"
+
+    glowpad:targetDrawables="@array/lockscreen_targets_unlock"
+    glowpad:targetDescriptions="@array/lockscreen_target_descriptions_unlock"
+    glowpad:directionDescriptions="@array/lockscreen_direction_descriptions"
+    glowpad:handleDrawable="@drawable/ic_lockscreen_handle"
+    glowpad:outerRingDrawable="@drawable/ic_lockscreen_outerring"
+    glowpad:outerRadius="@dimen/glowpadview_target_placement_radius"
+    glowpad:innerRadius="@dimen/glowpadview_inner_radius"
+    glowpad:snapMargin="@dimen/glowpadview_snap_margin"
+    glowpad:magneticTargets="false"
+    glowpad:feedbackCount="1"
+    glowpad:vibrationDuration="20"
+    glowpad:glowRadius="@dimen/glowpadview_glow_radius"
+    glowpad:pointDrawable="@drawable/ic_lockscreen_glowdot"
+    glowpad:allowScaling="true" />
+<!-- glowpad:firstItemOffset="@integer/kg_glowpad_rotation_offset" -->

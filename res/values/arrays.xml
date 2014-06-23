@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <array name="lockscreen_direction_descriptions">
+        <item>@string/description_direction_right</item>
+        <item>@null</item>
+        <item>@null</item>
+        <item>@null</item>
+        <item>@null</item>
+        <item>@null</item>
+        <item>@null</item>
+        <item>@null</item>
+    </array>
+    
+    <array name="lockscreen_targets_unlock">
+        <item>@drawable/ic_lockscreen_unlock</item>
+        <item>@drawable/ic_lockscreen_phone</item>
+        <item>@drawable/ic_lockscreen_sms</item>
+        <item>@drawable/ic_lockscreen_browser</item>
+        <item>@drawable/ic_lockscreen_camera</item>
+        <item>@null</item>
+        <item>@null</item>
+        <item>@null</item>
+    </array>
+    
+    <array name="lockscreen_target_descriptions_unlock">
+        <item>@string/description_target_unlock</item>
+        <item>@string/description_target_phone</item>
+        <item>@string/description_target_sms</item>
+        <item>@string/description_target_browser</item>
+        <item>@string/description_target_camera</item>
+        <item>@null</item>
+        <item>@null</item>
+        <item>@null</item>
+    </array>
+
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Gravity to make KeyguardSelectorView work in multiple orientations
+        0x13 == "left|center_vertical" -->
+    <integer name="kg_selector_gravity">0x13</integer>
+</resources>
