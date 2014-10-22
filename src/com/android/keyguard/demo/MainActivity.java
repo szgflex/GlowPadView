@@ -32,7 +32,14 @@ public class MainActivity extends Activity implements OnTriggerListener {
 
 	@Override
 	public void onTrigger(View v, int target) {
-
+		final int resId = mGlowPadView.getResourceIdForTarget(target);
+		switch (resId) {
+		case R.drawable.ic_lockscreen_unlock:
+			Toast.makeText(this, "Unlock selected", Toast.LENGTH_SHORT).show();
+			break;
+		default:
+			// Code should never reach here.
+		}
 	}
 
 	@Override
